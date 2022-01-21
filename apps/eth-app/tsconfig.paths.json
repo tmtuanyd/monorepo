@@ -1,0 +1,27 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "paths": {
+      "@models": ["./src/models"],
+      "@models/*": ["./src/models/*"],
+      "@layouts": ["./src/layouts"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@utils": ["./src/utils"],
+      "@utils/*": ["./src/utils/*"],
+      "@pages": ["./src/pages"],
+      "@pages/*": ["./src/pages/*"],
+      "@components": ["./src/components"],
+      "@constants": ["./src/constants"],
+      "@components/*": ["./src/components/*"],
+      "@constants/*": ["./src/constants/*"],
+      "@services": ["./src/services"],
+      "@services/*": ["./src/services/*"],
+      "@queries": ["./src/queries"],
+      "@queries/*": ["./src/queries/*"],
+      "@theme": ["./src/theme"]
+    }
+  }
+}
